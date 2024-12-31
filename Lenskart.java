@@ -65,13 +65,16 @@ public class Lenskart {
 		
 		driver.findElement(By.xpath("//div[@id='frame_size_id']")).click();
 		
-		List<WebElement> noOfFramesizes = driver.findElements(By.xpath("//div[@id='frame_size_id']//div[@class='Content--v9czoq iOaycl acoContent']//div[@class='FilterItemsWrapper--17ttnw1 jksmwR']"));
+		List<WebElement> noOfFramesizes = driver.findElements(By.xpath("//div[@id='frame_size_id']/div[2]/div/div"));
+		
 		System.out.println("No of frame sizes presnt " + noOfFramesizes.size());
 
 		Thread.sleep(6000);
 		 driver.quit();
 		 
-		 System.out.println("befhbwefkjbrjfr  jkbfkrjbgkr");
+		 System.out.println("lenskart ....");
 	}
 
 }
+
+
